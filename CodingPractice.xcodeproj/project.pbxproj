@@ -7,19 +7,19 @@
 	objects = {
 
 /* Begin PBXContainerItemProxy section */
+		5104A38C250631D8005A87F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5104A387250631D8005A87F0 /* 모의고사.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 517C45DE25050984008B484B;
+			remoteInfo = "모의고사";
+		};
 		517C45D2250508E0008B484B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 517C45CE250508DF008B484B /* 크레인 인형뽑기 게임.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 517C45C4250508DF008B484B;
 			remoteInfo = "크레인 인형뽑기 게임";
-		};
-		517C45EC25050984008B484B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 517C45E825050984008B484B /* 모의고사.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 517C45DE25050984008B484B;
-			remoteInfo = "모의고사";
 		};
 		517C460625051A14008B484B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -38,13 +38,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5104A387250631D8005A87F0 /* 모의고사.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "모의고사.xcodeproj"; path = "Programmers/완전탐색/모의고사/모의고사.xcodeproj"; sourceTree = SOURCE_ROOT; };
 		517C45CE250508DF008B484B /* 크레인 인형뽑기 게임.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "크레인 인형뽑기 게임.xcodeproj"; path = "크레인 인형뽑기 게임/크레인 인형뽑기 게임.xcodeproj"; sourceTree = "<group>"; };
-		517C45E825050984008B484B /* 모의고사.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "모의고사.xcodeproj"; path = "모의고사/모의고사.xcodeproj"; sourceTree = "<group>"; };
 		517C460225051A14008B484B /* K번째수.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "K번째수.xcodeproj"; path = "K번째수/K번째수.xcodeproj"; sourceTree = "<group>"; };
 		517C461C2505225E008B484B /* 체육복.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "체육복.xcodeproj"; path = "체육복/체육복.xcodeproj"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
+		5104A388250631D8005A87F0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5104A38D250631D8005A87F0 /* 모의고사 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		517C458025050797008B484B = {
 			isa = PBXGroup;
 			children = (
@@ -83,18 +91,10 @@
 		517C45D42505095D008B484B /* 완전탐색 */ = {
 			isa = PBXGroup;
 			children = (
-				517C45E825050984008B484B /* 모의고사.xcodeproj */,
+				5104A387250631D8005A87F0 /* 모의고사.xcodeproj */,
 			);
 			name = "완전탐색";
 			path = "모의고사";
-			sourceTree = "<group>";
-		};
-		517C45E925050984008B484B /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				517C45ED25050984008B484B /* 모의고사 */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		517C45EE250519F4008B484B /* 정렬 */ = {
@@ -155,8 +155,8 @@
 					ProjectRef = 517C460225051A14008B484B /* K번째수.xcodeproj */;
 				},
 				{
-					ProductGroup = 517C45E925050984008B484B /* Products */;
-					ProjectRef = 517C45E825050984008B484B /* 모의고사.xcodeproj */;
+					ProductGroup = 5104A388250631D8005A87F0 /* Products */;
+					ProjectRef = 5104A387250631D8005A87F0 /* 모의고사.xcodeproj */;
 				},
 				{
 					ProductGroup = 517C461D2505225E008B484B /* Products */;
@@ -174,18 +174,18 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
+		5104A38D250631D8005A87F0 /* 모의고사 */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = "모의고사";
+			remoteRef = 5104A38C250631D8005A87F0 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
 		517C45D3250508E0008B484B /* 크레인 인형뽑기 게임 */ = {
 			isa = PBXReferenceProxy;
 			fileType = "compiled.mach-o.executable";
 			path = "크레인 인형뽑기 게임";
 			remoteRef = 517C45D2250508E0008B484B /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		517C45ED25050984008B484B /* 모의고사 */ = {
-			isa = PBXReferenceProxy;
-			fileType = "compiled.mach-o.executable";
-			path = "모의고사";
-			remoteRef = 517C45EC25050984008B484B /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 		517C460725051A14008B484B /* K번째수 */ = {
