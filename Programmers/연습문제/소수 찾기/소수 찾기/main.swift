@@ -12,7 +12,7 @@ func solution(_ n:Int) -> Int {
     var isPrimes = Array(repeating: true, count: n + 1)     // 인덱스 번호와 숫자가 일치하도록 배열을 생성 (인덱스 0과 1은 사용되지 않음)
     var numberOfPrimes = 0
     
-    // 에라토스테네스의 체를 사용하여 소수를 걸러냄
+    // 에라토스테네스의 체를 사용하여 소수가 아닌 수를 걸러냄
     for number in 2...n {
         if isPrimes[number] {
             numberOfPrimes += 1
