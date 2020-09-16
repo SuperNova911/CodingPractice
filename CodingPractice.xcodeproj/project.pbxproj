@@ -315,6 +315,13 @@
 			remoteGlobalIDString = 511767D42511F68B00C12BA8;
 			remoteInfo = "H-Index";
 		};
+		5117682E2511FA9E00C12BA8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5117682A2511FA9D00C12BA8 /* 위장.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 511768202511FA9D00C12BA8;
+			remoteInfo = "위장";
+		};
 		516A14492510B8D7002469A4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 516A14252510B8D6002469A4 /* 조이스틱.xcodeproj */;
@@ -405,6 +412,7 @@
 		5104A82B250C8DA6005A87F0 /* 프로그래밍1.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "프로그래밍1.xcodeproj"; path = "프로그래밍1/프로그래밍1.xcodeproj"; sourceTree = "<group>"; };
 		5104A844250C96C8005A87F0 /* 프로그래밍2.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "프로그래밍2.xcodeproj"; path = "프로그래밍2/프로그래밍2.xcodeproj"; sourceTree = "<group>"; };
 		511767DE2511F68B00C12BA8 /* H-Index.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "H-Index.xcodeproj"; path = "H-Index/H-Index.xcodeproj"; sourceTree = "<group>"; };
+		5117682A2511FA9D00C12BA8 /* 위장.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "위장.xcodeproj"; path = "위장/위장.xcodeproj"; sourceTree = "<group>"; };
 		516A14252510B8D6002469A4 /* 조이스틱.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "조이스틱.xcodeproj"; path = "조이스틱/조이스틱.xcodeproj"; sourceTree = "<group>"; };
 		516A146D2510E080002469A4 /* 괄호 변환.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "괄호 변환.xcodeproj"; path = "괄호 변환/괄호 변환.xcodeproj"; sourceTree = "<group>"; };
 		517C45CE250508DF008B484B /* 크레인 인형뽑기 게임.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "크레인 인형뽑기 게임.xcodeproj"; path = "크레인 인형뽑기 게임/크레인 인형뽑기 게임.xcodeproj"; sourceTree = "<group>"; };
@@ -872,6 +880,23 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		511768162511FA6300C12BA8 /* 해시 */ = {
+			isa = PBXGroup;
+			children = (
+				5117682A2511FA9D00C12BA8 /* 위장.xcodeproj */,
+			);
+			name = "해시";
+			path = "해시";
+			sourceTree = "<group>";
+		};
+		5117682B2511FA9D00C12BA8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5117682F2511FA9E00C12BA8 /* 위장 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		516A14262510B8D6002469A4 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -908,9 +933,10 @@
 				5104A6E52508E9DC005A87F0 /* Summer Winter Coding(~2018) */,
 				5104A390250632C7005A87F0 /* 연습문제 */,
 				517C45EE250519F4008B484B /* 정렬 */,
-				517C460825052244008B484B /* 탐욕법 */,
-				517C45D42505095D008B484B /* 완전탐색 */,
+				511768162511FA6300C12BA8 /* 해시 */,
 				5104A766250A4915005A87F0 /* 스택 큐 */,
+				517C45D42505095D008B484B /* 완전탐색 */,
+				517C460825052244008B484B /* 탐욕법 */,
 			);
 			path = Programmers;
 			sourceTree = "<group>";
@@ -1118,6 +1144,10 @@
 				{
 					ProductGroup = 5104A6FA2508EA3E005A87F0 /* Products */;
 					ProjectRef = 5104A6F92508EA3E005A87F0 /* 예산.xcodeproj */;
+				},
+				{
+					ProductGroup = 5117682B2511FA9D00C12BA8 /* Products */;
+					ProjectRef = 5117682A2511FA9D00C12BA8 /* 위장.xcodeproj */;
 				},
 				{
 					ProductGroup = 5104A51625067588005A87F0 /* Products */;
@@ -1521,6 +1551,13 @@
 			fileType = "compiled.mach-o.executable";
 			path = "H-Index";
 			remoteRef = 511767E32511F68C00C12BA8 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		5117682F2511FA9E00C12BA8 /* 위장 */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = "위장";
+			remoteRef = 5117682E2511FA9E00C12BA8 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 		516A144A2510B8D7002469A4 /* 조이스틱 */ = {
