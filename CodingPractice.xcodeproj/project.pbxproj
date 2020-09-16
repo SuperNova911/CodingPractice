@@ -329,6 +329,13 @@
 			remoteGlobalIDString = 5117683A2511FFBB00C12BA8;
 			remoteInfo = "타겟 넘버";
 		};
+		511768612512075400C12BA8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5117685D2512075300C12BA8 /* 카펫.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 511768532512075300C12BA8;
+			remoteInfo = "카펫";
+		};
 		516A14492510B8D7002469A4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 516A14252510B8D6002469A4 /* 조이스틱.xcodeproj */;
@@ -421,6 +428,7 @@
 		511767DE2511F68B00C12BA8 /* H-Index.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "H-Index.xcodeproj"; path = "H-Index/H-Index.xcodeproj"; sourceTree = "<group>"; };
 		5117682A2511FA9D00C12BA8 /* 위장.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "위장.xcodeproj"; path = "위장/위장.xcodeproj"; sourceTree = "<group>"; };
 		511768442511FFBB00C12BA8 /* 타겟 넘버.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "타겟 넘버.xcodeproj"; path = "타겟 넘버/타겟 넘버.xcodeproj"; sourceTree = "<group>"; };
+		5117685D2512075300C12BA8 /* 카펫.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "카펫.xcodeproj"; path = "카펫/카펫.xcodeproj"; sourceTree = "<group>"; };
 		516A14252510B8D6002469A4 /* 조이스틱.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "조이스틱.xcodeproj"; path = "조이스틱/조이스틱.xcodeproj"; sourceTree = "<group>"; };
 		516A146D2510E080002469A4 /* 괄호 변환.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "괄호 변환.xcodeproj"; path = "괄호 변환/괄호 변환.xcodeproj"; sourceTree = "<group>"; };
 		517C45CE250508DF008B484B /* 크레인 인형뽑기 게임.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "크레인 인형뽑기 게임.xcodeproj"; path = "크레인 인형뽑기 게임/크레인 인형뽑기 게임.xcodeproj"; sourceTree = "<group>"; };
@@ -922,6 +930,14 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		5117685E2512075300C12BA8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				511768622512075400C12BA8 /* 카펫 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		516A14262510B8D6002469A4 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -987,6 +1003,7 @@
 		517C45D42505095D008B484B /* 완전탐색 */ = {
 			isa = PBXGroup;
 			children = (
+				5117685D2512075300C12BA8 /* 카펫.xcodeproj */,
 				5104A7DF250BB481005A87F0 /* 소수 찾기 Level2.xcodeproj */,
 				5104A387250631D8005A87F0 /* 모의고사.xcodeproj */,
 			);
@@ -1218,6 +1235,10 @@
 				{
 					ProductGroup = 5104A6312507A254005A87F0 /* Products */;
 					ProjectRef = 5104A6302507A254005A87F0 /* 최대공약수와 최소공배수.xcodeproj */;
+				},
+				{
+					ProductGroup = 5117685E2512075300C12BA8 /* Products */;
+					ProjectRef = 5117685D2512075300C12BA8 /* 카펫.xcodeproj */;
 				},
 				{
 					ProductGroup = 5104A64A2508D88E005A87F0 /* Products */;
@@ -1595,6 +1616,13 @@
 			fileType = "compiled.mach-o.executable";
 			path = "타겟 넘버";
 			remoteRef = 511768482511FFBC00C12BA8 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		511768622512075400C12BA8 /* 카펫 */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = "카펫";
+			remoteRef = 511768612512075400C12BA8 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 		516A144A2510B8D7002469A4 /* 조이스틱 */ = {
