@@ -10,11 +10,11 @@ import Foundation
 
 func solution(_ numbers:String) -> Int {
     // 만들어질 수 있는 숫자들
-    let possibleNumbers = Set(combination(of: numbers.map { String($0) }).compactMap { Int($0) })
+    let possibleNumbers = Set(allPermutations(of: numbers.map { String($0) }).compactMap { Int($0) })
     return possibleNumbers.filter { isPrime($0) }.count
 }
 
-func combination(of array: [String]) -> [String] {
+func allPermutations(of array: [String]) -> [String] {
     guard !array.isEmpty else {
         return []
     }
@@ -22,7 +22,7 @@ func combination(of array: [String]) -> [String] {
     return array.indices.flatMap { index -> [String] in
         var subArray = array
         let element = subArray.remove(at: index)
-        return [element] + combination(of: subArray).map { element + $0 }
+        return [element] + allPermutations(of: subArray).map { element + $0 }
     }
 }
 
