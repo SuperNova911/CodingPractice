@@ -7,19 +7,23 @@
 
 import Foundation
 
-// TODO: combination 함수 만들어서 시도
 func solution(_ nums:[Int]) -> Int {
-    var numberOfPrimes = 0
-    for i in 0...(nums.count - 3) {
-        for j in (i + 1)...(nums.count - 2) {
-            for k in (j + 1)...(nums.count - 1) {
-                if isPrime(nums[i] + nums[j] + nums[k]) {
-                    numberOfPrimes += 1
-                }
-            }
+    return nums.combination(r: 3)
+        .filter { isPrime($0.reduce(0, +)) }
+        .count
+}
+
+extension Array {
+    // 서로 다른 n개의 원소에서 r개를 중복없이, 순서에 상관없이 뽑음 (nCr)
+    func combination(r: Int) -> [[Element]] {
+        guard !isEmpty && r > 0 else {
+            return [[]]
+        }
+        
+        return (0...(self.count - r)).flatMap { index -> [[Element]] in
+            Array(self[(index + 1)...]).combination(r: r - 1).map { [self[index]] + $0 }
         }
     }
-    return numberOfPrimes
 }
 
 func isPrime(_ number: Int) -> Bool {
