@@ -14,7 +14,6 @@ func solution(_ n:Int, _ times:[Int]) -> Int64 {
     var shortestTakesTime = maxTakesTime
     
     // n명을 검사하는데 필요한 가장 짧은 시간을 찾을때가지 반복
-    // totalPeople이 n에서 n-1 또는 n+1로 변하는 구간을 찾아야함
     while maxTakesTime - minTakesTime >= 0 {
         let givenTime = (maxTakesTime + minTakesTime) / 2
         let throughputPerExaminer = times.map { givenTime / Int64($0) }   // 심사관별 주어진 시간동안 심사할 수 있는 사람 수
