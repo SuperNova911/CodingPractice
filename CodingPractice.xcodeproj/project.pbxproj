@@ -371,6 +371,13 @@
 			remoteGlobalIDString = 5119A50825FF91C500ED0FCE;
 			remoteInfo = "베스트앨범";
 		};
+		5119A53225FF9DF600ED0FCE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5119A52E25FF9DF500ED0FCE /* 디스크 컨트롤러.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 5119A52425FF9DF500ED0FCE;
+			remoteInfo = "디스크 컨트롤러";
+		};
 		511B983E251DC8D20060636C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 511B9811251DC8D10060636C /* 오픈채팅방.xcodeproj */;
@@ -679,6 +686,7 @@
 		511768DA25130F5100C12BA8 /* 땅따먹기.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "땅따먹기.xcodeproj"; path = "땅따먹기/땅따먹기.xcodeproj"; sourceTree = "<group>"; };
 		511768F425132D3400C12BA8 /* 삼각 달팽이.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "삼각 달팽이.xcodeproj"; path = "삼각 달팽이/삼각 달팽이.xcodeproj"; sourceTree = "<group>"; };
 		5119A51225FF91C500ED0FCE /* 베스트앨범.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "베스트앨범.xcodeproj"; path = "베스트앨범/베스트앨범.xcodeproj"; sourceTree = "<group>"; };
+		5119A52E25FF9DF500ED0FCE /* 디스크 컨트롤러.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "디스크 컨트롤러.xcodeproj"; path = "디스크 컨트롤러/디스크 컨트롤러.xcodeproj"; sourceTree = "<group>"; };
 		511B9811251DC8D10060636C /* 오픈채팅방.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "오픈채팅방.xcodeproj"; path = "오픈채팅방/오픈채팅방.xcodeproj"; sourceTree = "<group>"; };
 		511B9877251DD1E00060636C /* 후보키.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "후보키.xcodeproj"; path = "후보키/후보키.xcodeproj"; sourceTree = "<group>"; };
 		51488344251BAA7F00C17A34 /* 캐시.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "캐시.xcodeproj"; path = "캐시/캐시.xcodeproj"; sourceTree = "<group>"; };
@@ -1288,6 +1296,23 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		5119A51A25FF9DBE00ED0FCE /* 힙(Heap) */ = {
+			isa = PBXGroup;
+			children = (
+				5119A52E25FF9DF500ED0FCE /* 디스크 컨트롤러.xcodeproj */,
+			);
+			name = "힙(Heap)";
+			path = "힙(Heap)";
+			sourceTree = "<group>";
+		};
+		5119A52F25FF9DF500ED0FCE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5119A53325FF9DF600ED0FCE /* 디스크 컨트롤러 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		511B9812251DC8D10060636C /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -1474,6 +1499,7 @@
 				517C45EE250519F4008B484B /* 정렬 */,
 				511768162511FA6300C12BA8 /* 해시 */,
 				5104A766250A4915005A87F0 /* 스택 큐 */,
+				5119A51A25FF9DBE00ED0FCE /* 힙(Heap) */,
 				516B82C22528286700F888A7 /* 그래프 */,
 				511768302511FF8100C12BA8 /* 깊이 너비 우선 탐색(DFS BFS) */,
 				516B80BF2521E1B700F888A7 /* 동적계획법(Dynamic Programming) */,
@@ -1795,6 +1821,10 @@
 				{
 					ProductGroup = 5104A3F025064A3B005A87F0 /* Products */;
 					ProjectRef = 5104A3EF25064A3B005A87F0 /* 두 정수 사이의 합.xcodeproj */;
+				},
+				{
+					ProductGroup = 5119A52F25FF9DF500ED0FCE /* Products */;
+					ProjectRef = 5119A52E25FF9DF500ED0FCE /* 디스크 컨트롤러.xcodeproj */;
 				},
 				{
 					ProductGroup = 511768DB25130F5100C12BA8 /* Products */;
@@ -2430,6 +2460,13 @@
 			fileType = "compiled.mach-o.executable";
 			path = "베스트앨범";
 			remoteRef = 5119A51625FF91C600ED0FCE /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		5119A53325FF9DF600ED0FCE /* 디스크 컨트롤러 */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = "디스크 컨트롤러";
+			remoteRef = 5119A53225FF9DF600ED0FCE /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 		511B983F251DC8D20060636C /* 오픈채팅방 */ = {
