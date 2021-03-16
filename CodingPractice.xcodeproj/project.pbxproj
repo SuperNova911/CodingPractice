@@ -420,6 +420,13 @@
 			remoteGlobalIDString = 5119A6A6260108D800ED0FCE;
 			remoteInfo = "두 개 뽑아서 더하기";
 		};
+		5119A6CF26010AC600ED0FCE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5119A6CB26010AC600ED0FCE /* 신규 아이디 추천.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 5119A6C126010AC600ED0FCE;
+			remoteInfo = "신규 아이디 추천";
+		};
 		511B983E251DC8D20060636C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 511B9811251DC8D10060636C /* 오픈채팅방.xcodeproj */;
@@ -735,6 +742,7 @@
 		5119A60C2600E81E00ED0FCE /* 순위.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "순위.xcodeproj"; path = "순위/순위.xcodeproj"; sourceTree = "<group>"; };
 		5119A6822600EDC700ED0FCE /* 11404 플로이드.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "11404 플로이드.xcodeproj"; path = "11404 플로이드/11404 플로이드.xcodeproj"; sourceTree = "<group>"; };
 		5119A6B0260108D800ED0FCE /* 두 개 뽑아서 더하기.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "두 개 뽑아서 더하기.xcodeproj"; path = "두 개 뽑아서 더하기/두 개 뽑아서 더하기.xcodeproj"; sourceTree = "<group>"; };
+		5119A6CB26010AC600ED0FCE /* 신규 아이디 추천.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "신규 아이디 추천.xcodeproj"; path = "신규 아이디 추천/신규 아이디 추천.xcodeproj"; sourceTree = "<group>"; };
 		511B9811251DC8D10060636C /* 오픈채팅방.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "오픈채팅방.xcodeproj"; path = "오픈채팅방/오픈채팅방.xcodeproj"; sourceTree = "<group>"; };
 		511B9877251DD1E00060636C /* 후보키.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "후보키.xcodeproj"; path = "후보키/후보키.xcodeproj"; sourceTree = "<group>"; };
 		51488344251BAA7F00C17A34 /* 캐시.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "캐시.xcodeproj"; path = "캐시/캐시.xcodeproj"; sourceTree = "<group>"; };
@@ -1420,6 +1428,22 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		5119A6B726010A9A00ED0FCE /* 2021 KAKAO BLIND RECRUITMENT */ = {
+			isa = PBXGroup;
+			children = (
+				5119A6CB26010AC600ED0FCE /* 신규 아이디 추천.xcodeproj */,
+			);
+			path = "2021 KAKAO BLIND RECRUITMENT";
+			sourceTree = "<group>";
+		};
+		5119A6CC26010AC600ED0FCE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5119A6D026010AC600ED0FCE /* 신규 아이디 추천 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		511B9812251DC8D10060636C /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -1598,6 +1622,7 @@
 			children = (
 				5104A5D9250794B1005A87F0 /* 2020 카카오 인턴십 */,
 				517C4588250507B8008B484B /* 2019 카카오 개발자 겨울 인턴십 */,
+				5119A6B726010A9A00ED0FCE /* 2021 KAKAO BLIND RECRUITMENT */,
 				5104A799250A56EE005A87F0 /* 2020 KAKAO BLIND RECRUITMENT */,
 				5104A7192508F539005A87F0 /* 2019 KAKAO BLIND RECRUITMENT */,
 				5104A6FF2508ECC0005A87F0 /* 2018 KAKAO BLIND RECRUITMENT */,
@@ -2031,6 +2056,10 @@
 				{
 					ProductGroup = 5104A4E425066700005A87F0 /* Products */;
 					ProjectRef = 5104A4E325066700005A87F0 /* 시저 암호.xcodeproj */;
+				},
+				{
+					ProductGroup = 5119A6CC26010AC600ED0FCE /* Products */;
+					ProjectRef = 5119A6CB26010AC600ED0FCE /* 신규 아이디 추천.xcodeproj */;
 				},
 				{
 					ProductGroup = 5104A72E2508F58B005A87F0 /* Products */;
@@ -2643,6 +2672,13 @@
 			fileType = "compiled.mach-o.executable";
 			path = "두 개 뽑아서 더하기";
 			remoteRef = 5119A6B4260108D900ED0FCE /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		5119A6D026010AC600ED0FCE /* 신규 아이디 추천 */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = "신규 아이디 추천";
+			remoteRef = 5119A6CF26010AC600ED0FCE /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 		511B983F251DC8D20060636C /* 오픈채팅방 */ = {
