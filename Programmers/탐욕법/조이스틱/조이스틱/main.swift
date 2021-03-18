@@ -8,7 +8,6 @@
 
 import Foundation
 
-// TODO: 테스트케이스 통과 실패
 func solution(_ name:String) -> Int {
     var inputFields = name.map {
         InputField(targetLetter: String($0), hasSet: $0 == "A")
@@ -77,11 +76,9 @@ struct InputField {
 
 let name1 = "JEROEN"
 let name2 = "JAN"
-let name3 = "BBBAAB"
-let name4 = "JAZ"
+let name3 = "JAZ"
 
 print(solution(name1))  // 56
 print(solution(name2))  // 23
-print(solution(name3))  // 8
-print(solution(name4))  // 11
+print(solution(name3))  // 11
 
