@@ -455,6 +455,13 @@
 			remoteGlobalIDString = 511B986D251DD1E00060636C;
 			remoteInfo = "후보키";
 		};
+		513600B6260368FD00FCFEAB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 513600B1260368FC00FCFEAB /* 수식 최대화.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 513600A7260368FC00FCFEAB;
+			remoteInfo = "수식 최대화";
+		};
 		51488383251BAA8000C17A34 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 51488344251BAA7F00C17A34 /* 캐시.xcodeproj */;
@@ -796,6 +803,7 @@
 		5119A6FF2601180500ED0FCE /* 내적.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "내적.xcodeproj"; path = "내적/내적.xcodeproj"; sourceTree = "<group>"; };
 		511B9811251DC8D10060636C /* 오픈채팅방.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "오픈채팅방.xcodeproj"; path = "오픈채팅방/오픈채팅방.xcodeproj"; sourceTree = "<group>"; };
 		511B9877251DD1E00060636C /* 후보키.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "후보키.xcodeproj"; path = "후보키/후보키.xcodeproj"; sourceTree = "<group>"; };
+		513600B1260368FC00FCFEAB /* 수식 최대화.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "수식 최대화.xcodeproj"; path = "수식 최대화/수식 최대화.xcodeproj"; sourceTree = "<group>"; };
 		51488344251BAA7F00C17A34 /* 캐시.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "캐시.xcodeproj"; path = "캐시/캐시.xcodeproj"; sourceTree = "<group>"; };
 		514E706F251DE38F00FD1530 /* 방금그곡.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "방금그곡.xcodeproj"; path = "방금그곡/방금그곡.xcodeproj"; sourceTree = "<group>"; };
 		514E70D7251F3A2600FD1530 /* 압축.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "압축.xcodeproj"; path = "압축/압축.xcodeproj"; sourceTree = "<group>"; };
@@ -1023,6 +1031,7 @@
 		5104A5D9250794B1005A87F0 /* 2020 카카오 인턴십 */ = {
 			isa = PBXGroup;
 			children = (
+				513600B1260368FC00FCFEAB /* 수식 최대화.xcodeproj */,
 				51B29D8525177B25004FCFE6 /* 수식 최대화.xcodeproj */,
 				5104A61725079698005A87F0 /* 키패드 누르기.xcodeproj */,
 			);
@@ -1539,6 +1548,14 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		513600B2260368FC00FCFEAB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				513600B7260368FD00FCFEAB /* 수식 최대화 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		51488345251BAA7F00C17A34 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -1699,27 +1716,27 @@
 		517C4587250507A9008B484B /* Programmers */ = {
 			isa = PBXGroup;
 			children = (
-				5104A5D9250794B1005A87F0 /* 2020 카카오 인턴십 */,
-				517C4588250507B8008B484B /* 2019 카카오 개발자 겨울 인턴십 */,
-				5119A6B726010A9A00ED0FCE /* 2021 KAKAO BLIND RECRUITMENT */,
-				5104A799250A56EE005A87F0 /* 2020 KAKAO BLIND RECRUITMENT */,
-				5104A7192508F539005A87F0 /* 2019 KAKAO BLIND RECRUITMENT */,
-				5104A6FF2508ECC0005A87F0 /* 2018 KAKAO BLIND RECRUITMENT */,
-				5104A74C250A3162005A87F0 /* Summer Winter Coding(2019) */,
-				5104A6E52508E9DC005A87F0 /* Summer Winter Coding(~2018) */,
 				51B29D8C25179990004FCFE6 /* 2017 팁스타운 */,
-				511768E025132D0A00C12BA8 /* 월간 코드 챌린지 시즌1 */,
-				5104A390250632C7005A87F0 /* 연습문제 */,
-				517C45EE250519F4008B484B /* 정렬 */,
-				511768162511FA6300C12BA8 /* 해시 */,
-				5104A766250A4915005A87F0 /* 스택 큐 */,
-				5119A51A25FF9DBE00ED0FCE /* 힙(Heap) */,
+				5104A6FF2508ECC0005A87F0 /* 2018 KAKAO BLIND RECRUITMENT */,
+				517C4588250507B8008B484B /* 2019 카카오 개발자 겨울 인턴십 */,
+				5104A7192508F539005A87F0 /* 2019 KAKAO BLIND RECRUITMENT */,
+				5104A5D9250794B1005A87F0 /* 2020 카카오 인턴십 */,
+				5104A799250A56EE005A87F0 /* 2020 KAKAO BLIND RECRUITMENT */,
+				5119A6B726010A9A00ED0FCE /* 2021 KAKAO BLIND RECRUITMENT */,
+				5104A6E52508E9DC005A87F0 /* Summer Winter Coding(~2018) */,
+				5104A74C250A3162005A87F0 /* Summer Winter Coding(2019) */,
 				516B82C22528286700F888A7 /* 그래프 */,
 				511768302511FF8100C12BA8 /* 깊이 너비 우선 탐색(DFS BFS) */,
 				516B80BF2521E1B700F888A7 /* 동적계획법(Dynamic Programming) */,
-				516B82F82537506900F888A7 /* 이분탐색 */,
+				5104A766250A4915005A87F0 /* 스택 큐 */,
+				5104A390250632C7005A87F0 /* 연습문제 */,
 				517C45D42505095D008B484B /* 완전탐색 */,
+				511768E025132D0A00C12BA8 /* 월간 코드 챌린지 시즌1 */,
+				516B82F82537506900F888A7 /* 이분탐색 */,
+				517C45EE250519F4008B484B /* 정렬 */,
 				517C460825052244008B484B /* 탐욕법 */,
+				511768162511FA6300C12BA8 /* 해시 */,
+				5119A51A25FF9DBE00ED0FCE /* 힙(Heap) */,
 			);
 			path = Programmers;
 			sourceTree = "<group>";
@@ -2179,6 +2196,10 @@
 				{
 					ProductGroup = 51B29D8625177B25004FCFE6 /* Products */;
 					ProjectRef = 51B29D8525177B25004FCFE6 /* 수식 최대화.xcodeproj */;
+				},
+				{
+					ProductGroup = 513600B2260368FC00FCFEAB /* Products */;
+					ProjectRef = 513600B1260368FC00FCFEAB /* 수식 최대화.xcodeproj */;
 				},
 				{
 					ProductGroup = 51EFA56E2602579E00ACD9F0 /* Products */;
@@ -2854,6 +2875,13 @@
 			fileType = "compiled.mach-o.executable";
 			path = "후보키";
 			remoteRef = 511B987B251DD1E00060636C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		513600B7260368FD00FCFEAB /* 수식 최대화 */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = "수식 최대화";
+			remoteRef = 513600B6260368FD00FCFEAB /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 		51488384251BAA8000C17A34 /* 캐시 */ = {
